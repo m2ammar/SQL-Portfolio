@@ -18,11 +18,10 @@
 
 | # | Database | Theme | Key Concepts |
 |---|----------|-------|--------------|
-| 1 | [E-Commerce](#1-e-commerce-database) | Online Store | Joins, Aggregates, Subqueries |
-| 2 | [Bank](#2-bank-database) | Banking System | Subqueries, ENUMs, Multi-table Joins |
-| 3 | [Organisation](#3-organisation-database) | Company/HR | GROUP BY, HAVING, Nested Subqueries |
-| 4 | [College](#4-college-database) | College System | ALTER, UPDATE, DDL Commands |
-
+| 1 | [E-Commerce](https://github.com/m2ammar/E-Commerce-database-mysql) | Online Store | Joins, Aggregates, Subqueries |
+| 2 | [Bank](https://github.com/m2ammar/Bank-database-mysql) | Banking System | Subqueries, ENUMs, Multi-table Joins |
+| 3 | [Organisation](https://github.com/m2ammar/Organisation-database-mysql) | Company/HR | GROUP BY, HAVING, Nested Subqueries |
+| 4 | [College](https://github.com/m2ammar/College-database-mysql) | College System | ALTER, UPDATE, DDL Commands |
 ---
 
 ## 1. 🛒 E-Commerce Database
