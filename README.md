@@ -178,13 +178,13 @@ WHERE City IN ('Karachi');
 | Skill | Level |
 |-------|-------|
 | Table Design & Foreign Keys | ✅ Comfortable |
-| Data Insertion (INSERT) | ✅ Comfortable |
-| SELECT with WHERE / ORDER BY | ✅ Comfortable |
-| JOINs (INNER JOIN, Aliases) | ✅ Comfortable |
-| Aggregate Functions | ✅ Comfortable |
-| GROUP BY / HAVING | ✅ Comfortable |
-| Subqueries | ✅ Comfortable |
-| DDL (ALTER, UPDATE, DROP) | ✅ Comfortable |
+| Data Insertion (INSERT) |  Comfortable |
+| SELECT with WHERE / ORDER BY |  Comfortable |
+| JOINs (INNER JOIN, Aliases) |  Comfortable |
+| Aggregate Functions |  Comfortable |
+| GROUP BY / HAVING |  Comfortable |
+| Subqueries |  Comfortable |
+| DDL (ALTER, UPDATE, DROP) |  Comfortable |
 
 ---
 
