@@ -9,7 +9,7 @@
 
 - 🎓 Pre-Engineering Graduate — AKHSS, Karachi
 - 📊 Aspiring **Data Analyst → Data Scientist**
-- 🛠️ Skills: **SQL • Excel • Java** | Currently Learning: **Tableau**
+- 🛠️ Skills: **SQL • Excel • Java • Tableau**
 - 🔗 GitHub: [github.com/m2ammar](https://github.com/m2ammar)
 
 ---
@@ -18,13 +18,20 @@
 
 | # | Database | Theme | Key Concepts |
 |---|----------|-------|--------------|
-| 1 | [E-Commerce](https://github.com/m2ammar/E-Commerce-database-mysql) | Online Store | Joins, Aggregates, Subqueries |
-| 2 | [Bank](https://github.com/m2ammar/Bank-database-mysql) | Banking System | Subqueries, ENUMs, Multi-table Joins |
-| 3 | [Organisation](https://github.com/m2ammar/Organisation-database-mysql) | Company/HR | GROUP BY, HAVING, Nested Subqueries |
-| 4 | [College](https://github.com/m2ammar/College-database-mysql) | College System | ALTER, UPDATE, DDL Commands |
+| 1 | [Pakistan Textile Export Analysis](https://github.com/m2ammar/Pakistan-textile-export-analysis) | Real Industry Data | Joins, Tableau, FK Constraints |
+| 2 | [E-Commerce](https://github.com/m2ammar/E-Commerce-database-mysql) | Online Store | Joins, Aggregates, Subqueries |
+| 3 | [Bank](https://github.com/m2ammar/Bank-database-mysql) | Banking System | Subqueries, ENUMs, Multi-table Joins |
+| 4 | [Organisation](https://github.com/m2ammar/Organisation-database-mysql) | Company/HR | GROUP BY, HAVING, Nested Subqueries |
+| 5 | [College](https://github.com/m2ammar/College-database-mysql) | College System | ALTER, UPDATE, DDL Commands |
 ---
 
-## 1. 🛒 E-Commerce Database
+## 1. 🧵 Pakistan Textile Export Analysis
+
+Pakistan's textile export analysis from COVID onwards, using MySQL and Tableau.
+
+**Repo:** [Pakistan Textile Export Analysis](https://github.com/m2ammar/Pakistan-textile-export-analysis)
+
+## 2. 🛒 E-Commerce Database
 
 A fully structured e-commerce system with **8 related tables** covering the complete order lifecycle.
 
@@ -63,7 +70,7 @@ LIMIT 1;
 
 ---
 
-## 2. 🏦 Bank Database
+## 3. 🏦 Bank Database
 
 A banking system simulating real-world accounts, transactions, loans, and employees.
 
@@ -95,7 +102,7 @@ WHERE salary > (SELECT AVG(salary) FROM Employees);
 
 ---
 
-## 3. 🏢 Organisation Database
+## 4. 🏢 Organisation Database
 
 A company database with departments, employees, projects, teachers, and students.
 
@@ -135,7 +142,7 @@ HAVING AVG(salary) = (
 
 ---
 
-## 4. 🎓 College Database
+## 5. 🎓 College Database
 
 A college-level database focused on DDL (Data Definition Language) commands alongside DML.
 
