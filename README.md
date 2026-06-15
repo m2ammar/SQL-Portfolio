@@ -129,7 +129,7 @@ Pakistan's textile export analysis from COVID onwards, using MySQL and Tableau.
 
 **Repo:** [Pakistan Textile Export Analysis](https://github.com/m2ammar/Pakistan-textile-export-analysis)
 
-## 2. 🛒 E-Commerce Database
+## 4. 🛒 E-Commerce Database
 
 A fully structured e-commerce system with **8 related tables** covering the complete order lifecycle.
 
@@ -168,7 +168,7 @@ LIMIT 1;
 
 ---
 
-## 4. 🏦 Bank Database
+## 5. 🏦 Bank Database
 
 A banking system simulating real-world accounts, transactions, loans, and employees.
 
@@ -200,7 +200,7 @@ WHERE salary > (SELECT AVG(salary) FROM Employees);
 
 ---
 
-## 5. 🏢 Organisation Database
+## 6. 🏢 Organisation Database
 
 A company database with departments, employees, projects, teachers, and students.
 
@@ -240,7 +240,7 @@ HAVING AVG(salary) = (
 
 ---
 
-## 6. 🎓 College Database
+## 7. 🎓 College Database
 
 A college-level database focused on DDL (Data Definition Language) commands alongside DML.
 
