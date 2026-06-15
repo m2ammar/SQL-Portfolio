@@ -125,9 +125,40 @@ LIMIT 1;
 
 ## 3. 🧵 Pakistan Textile Export Analysis
 
-Pakistan's textile export analysis from COVID onwards, using MySQL and Tableau.
+Real-world analysis of Pakistan's textile export industry using data from Pakistan Textile Council (PTC) and Pakistan Bureau of Statistics (PBS).
 
-**Repo:** [Pakistan Textile Export Analysis](https://github.com/m2ammar/Pakistan-textile-export-analysis)
+**Key Insight:** Floods and COVID-19 impacted Pakistan's textile industry significantly. North America remains the dominant export destination, and value-added products consistently outperform traditional textiles.
+
+### Tables
+| Table | Description |
+|-------|-------------|
+| `products` | Textile product categories with HS chapter codes |
+| `countries` | Export destination countries and regions |
+| `exports` | Quarterly export values and volumes (2021–2025) |
+| `yearly_summary` | Annual totals, YoY growth, cotton production, energy costs |
+
+### SQL Concepts Covered
+- **JOIN** across products and countries
+- **GROUP BY** with **SUM()** for category and regional breakdowns
+- **ORDER BY DESC** for ranking top products and destinations
+- **YoY growth analysis** using yearly_summary table
+- **WHERE filtering** for product-specific trend tracking
+
+### Sample Query
+```sql
+-- Total exports by fiscal year
+SELECT fiscal_year, SUM(export_value_usd) AS total_exports
+FROM exports
+GROUP BY fiscal_year
+ORDER BY fiscal_year;
+
+-- Top export destinations
+SELECT c.country_name, c.region, SUM(e.export_value_usd) AS total_exports
+FROM exports AS e
+JOIN countries AS c ON c.country_id = e.country_id
+GROUP BY c.country_name, c.region
+ORDER BY total_exports DESC;
+```
 
 ## 4. 🛒 E-Commerce Database
 
